@@ -1,0 +1,124 @@
+body {
+  background-image: url(./image/background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: cover; */
+  /* background-color: rgba(36, 34, 34, 0.8); */
+}
+
+.Opak{
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 20px 30px 30px ;
+}
+
+
+.container{
+  
+  width: 600px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 8px;
+  
+}
+
+.baslik{
+  color: white;
+  text-align: center;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+
+}
+
+#kirmizi{
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;;
+  color: red;
+
+}
+
+#par1{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#isim{
+  color: white;
+  margin: auto 25px;
+  margin-top: 20px;
+  font-size: 23px;
+
+}
+
+ #ortak{
+  padding: 25px 10px;
+  width: 520px;
+  
+ }
+
+ #age{
+  color: white;
+  margin: auto 25px;
+  font-size: 23px;
+
+ }
+
+ 
+ #Mail{
+  color: white;
+  margin: auto 25px;
+  font-size: 23px;
+ }
+
+ 
+ #inhalt{
+  color: white;
+  margin: auto 25px;
+  font-size: 23px;
+ }
+  
+
+ #dizi{
+  padding: 15px 10px;
+  width: 520px;
+
+ }
+
+
+ #komentare{
+  
+  margin: 10px 25px;
+  color: white;
+  font-size: 21px;
+ 
+ }
+
+
+ #yorum{
+  width: 480px;
+  padding: 3px;
+  
+
+ }
+  
+ #Kutu{
+  color: white;
+  margin: auto 25px;
+  font-size: 23px;
+ }
+
+ #Buton{
+ margin: 10px 200px;
+ padding: 12px;
+ width: 165px;
+ border-radius: 33px;
+ font-size: 23px;
+ color: white;
+ background-color: red;
+ 
+ }

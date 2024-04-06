@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="./netflix.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&display=swap"
+      rel="stylesheet"
+    /> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="Opak">
+      <header>
+        <h1 class="baslik">NET<span id="kirmizi">FLIX</span></h1>
+
+      <p id="par1">
+        Thank you for signing up at Netflix. Tell us more about your self
+      </p>
+      </header>
+      
+     <main class="container">
+      <form action="./result.html" method="get">
+        <div id="isim">
+          <label for="name">Name</label> <br />
+          <br />
+          <input
+            type="text"
+            name="Isim"
+            id="ortak"
+            placeholder="Enter your name"
+          />
+        </div>
+        <br>
+        
+        <div id="age">
+          <label for="yas">Age</label> <br /><br />
+          <input type="number" name="Yasiniz" id="ortak"  placeholder="Age"/>
+        </div>
+        <br>
+        <div id="Mail">
+          <label for="mail">Email</label> <br /><br />
+          <input type="email" name="Mail" id="ortak" placeholder="Enter your email" /> <br /><br />
+        </div>
+
+        <div id="inhalt">
+          <label for="icerik">Content type</label> <br />
+          <br />
+          <select name="Secim" id="dizi" size="1">
+            <option value="Series">Series</option>
+            <!-- <option value="Film">Movies</option> -->
+          </select>
+        </div>
+        <br />
+        <div id="Kutu">
+          <label for="kutucuk">Movie type</label> 
+          <li style type="none">
+            <input type="checkbox" name="Dizi" id="kutucuk" /> Comedy
+          </li>
+          <li style type="none">
+            <input type="checkbox" name="Dizi" id="kutucuk" /> Action
+          </li>
+          <li style type="none">
+            <input type="checkbox" name="Dizi" id="kutucuk" /> Romance
+          </li>
+        </div>
+        <br />
+        <div id="Kutu">
+          <label for="cinsiyet">Gender</label> <br />
+          <li style type="none">
+            <input type="radio" name="ayni" id="erkek" />
+            <label for="erkek">Male</label>
+          </li>
+          <li style type="none">
+            <input type="radio" name="ayni" id="kadin" />
+            <label for="kadin">Female</label>
+          </li>
+          <li style type="none">
+            <input type="radio" name="ayni" id="diger" />
+            <label for="diger">Other</label>
+          </li>
+        </div>
+        <br />
+
+        <div id="komentare">
+          <label for="yorum"> Feed Back</label> <br /> <br>
+          <textarea
+            name="girilen yorum"
+            id="yorum"
+            placeholder="Any comment"
+            cols="45"
+            rows="7"
+          ></textarea>
+        </div>
+        <div>
+
+          <button type="submit" id="Buton" >Submit</button>
+
+        </div>
+       
+      </form>
+  
+  </div>
+     </main>
+    
+  </body>
+</html>
